@@ -1,4 +1,6 @@
-# estudos
+# Bebaralho Cearense
+
+um aplicativo inicialmente simples que deve servir apenas com objeto de estudo em flutter
 
 A new Flutter project.
 
