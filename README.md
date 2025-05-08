@@ -21,30 +21,26 @@ Um aplicativo Flutter modular feito para hospedar um jogo de cartas, este que ta
 ```txt
 lib/
 │
-├── core/ # Módulos centrais reutilizáveis
-│ ├── routes/ # Rotas e gerenciamento de navegação
-│ │ └── app_routes.dart
-│ ├── theme/ # Tema e estilos globais
-│ │ └── app_theme.dart
-│ └── utils/ # Utilitários e helpers genéricos
-│ └── helpers.dart
+├── core/                        # Módulos centrais reutilizáveis
+│   ├── routes.dart/             # Rotas e gerenciamento de navegação
+│   ├── theme/                   # Tema e estilos globais
+│   │   └── app_theme.dart
+│   └── utils.dart/              # Utilitários e helpers genéricos
 │
-├── features/ # Funcionalidades principais divididas por domínio
-│ └── sorteador/ # Módulo de sorteio
-│ ├── controller/ # Lógica e controle da feature
-│ │ └── sorteador_controller.dart
-│ ├── models/ # Modelos de dados (opcional)
-│ │ └── sorteador_model.dart
-│ └── presentation/ # Interface e componentes visuais
-│ ├── pages/ # Telas principais da feature
-│ │ ├── about_page.dart
-│ │ ├── rules_page.dart
-│ │ ├── sorteador_page.dart
-│ │ └── tela_inicial_page.dart
-│ └── widgets/ # Widgets reutilizáveis
-│ └── carta_widget.dart
+├── features/                    # Funcionalidades principais divididas por domínio
+│   └── sorteador/               # Módulo de sorteio
+│       ├── controller/          # Lógica e controle da feature
+│       │   └── sorteador_controller.dart
+│       └── presentation/        # Interface e componentes visuais
+│           ├── pages/           # Telas principais da feature
+│           │   ├── about_page.dart
+│           │   ├── rules.dart
+│           │   ├── sorteador_page.dart
+│           │   └── tela_inicial_page.dart
+│           └── widgets/         # Widgets reutilizáveis
+│               └── carta_widget.dart
 │
-└── main.dart # Ponto de entrada do aplicativo
+└── main.dart                    # Ponto de entrada do aplicativo
 ```
 
 um aplicativo inicialmente simples que deve servir apenas com objeto de estudo em flutter
