@@ -18,6 +18,7 @@ Um aplicativo Flutter modular feito para hospedar um jogo de cartas, este que ta
 
 ## 📁 Estrutura do Projeto
 
+```txt
 lib/
 │
 ├── core/ # Módulos centrais reutilizáveis
@@ -44,6 +45,6 @@ lib/
 │ └── carta_widget.dart
 │
 └── main.dart # Ponto de entrada do aplicativo
-
+```
 
 um aplicativo inicialmente simples que deve servir apenas com objeto de estudo em flutter
