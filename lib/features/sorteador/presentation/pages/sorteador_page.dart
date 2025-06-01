@@ -1,7 +1,9 @@
+// lib/features/sorteador/presentation/pages/sorteador_page.dart
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../../controller/sorteador_provider.dart';
 import '../widgets/carta_widget.dart';
 import 'tela_inicial_page.dart';
-import '../../controller/sorteador_controller.dart';
 
 class SorteadorPage extends StatefulWidget {
   const SorteadorPage({super.key});
@@ -11,23 +13,16 @@ class SorteadorPage extends StatefulWidget {
 }
 
 class _SorteadorPageState extends State<SorteadorPage> {
-  final controller = SorteadorController();
-
-  @override
-  void initState() {
-    super.initState();
-    controller.embaralharCartas();
-  }
-
-  void proximaCarta() {
-    setState(() => controller.proximaCarta());
-  }
-
   @override
   Widget build(BuildContext context) {
+    final controller = Provider.of<SorteadorProvider>(context).controller;
+
+    void proximaCarta() {
+      setState(() => controller.proximaCarta());
+    }
+
     return Scaffold(
       backgroundColor: const Color(0xFF424242),
-
       body: GestureDetector(
         onHorizontalDragEnd: (details) {
           if (details.primaryVelocity! < 0) proximaCarta();
@@ -50,6 +45,26 @@ class _SorteadorPageState extends State<SorteadorPage> {
                   textStyle: const TextStyle(fontSize: 20),
                 ),
                 child: const Text('Próxima Carta'),
+              ),
+              const SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pushAndRemoveUntil(
+                    context,
+                    MaterialPageRoute(builder: (_) => const TelaInicialPage()),
+                    (route) => false,
+                  );
+                },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.red,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 32,
+                    vertical: 16,
+                  ),
+                  textStyle: const TextStyle(fontSize: 20),
+                ),
+                child: const Text('Parar Jogo'),
               ),
               const SizedBox(height: 20),
               const Text(

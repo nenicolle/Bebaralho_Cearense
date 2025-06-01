@@ -1,6 +1,6 @@
+import 'package:estudos/features/sorteador/presentation/pages/deck_selection_page.dart';
 import 'package:estudos/features/sorteador/presentation/pages/rules.dart';
 import 'package:flutter/material.dart';
-import 'sorteador_page.dart';
 
 class TelaInicialPage extends StatelessWidget {
   const TelaInicialPage({super.key});
@@ -20,6 +20,24 @@ class TelaInicialPage extends StatelessWidget {
               fit: BoxFit.contain,
             ),
             const SizedBox(height: 30),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (_) => const DeckSelectionPage()),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.blue,
+                foregroundColor: Colors.white,
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 40,
+                  vertical: 10,
+                ),
+                textStyle: const TextStyle(fontSize: 24),
+              ),
+              child: const Text('Selecionar Baralho'),
+            ),
+            const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
                 Navigator.of(context).pushReplacement(
