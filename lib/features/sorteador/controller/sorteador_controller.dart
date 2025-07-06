@@ -1,25 +1,47 @@
-// lib/features/sorteador/controller/sorteador_controller.dart
 class SorteadorController {
-  final List<String> cartas = List.generate(82, (i) => 'assets/${i + 1}.jpg');
+  final Map<String, int> baralhos = {
+    'bebaralho-cearense': 97,
+    'hipoteticamente': 80,
+  };
+
+  late List<String> cartas;
   late List<String> cartasEmbaralhadas;
   int cartaAtualIndex = 0;
   List<String> selectedCards = [];
+  String baralhoAtual = 'bebaralho-cearense';
 
   SorteadorController() {
-    selectedCards = List.from(cartas); // Initialize with all cards
+    _loadCartas(baralhoAtual);
+    selectedCards = List.from(cartas);
     embaralharCartas();
+  }
+
+  void _loadCartas(String baralho) {
+    final int numCartas = baralhos[baralho] ?? 50;
+    if (baralho == 'bebaralho-cearense') {
+      cartas = List.generate(numCartas, (i) => 'assets/$baralho/${i + 1}.jpg');
+    } else {
+      cartas = List.generate(numCartas, (i) => 'assets/$baralho/${i + 1}.png');
+    }
+    print('Cartas carregadas para $baralho: $cartas');
   }
 
   List<String> getAllCards() {
     return List.from(cartas);
   }
 
+  void trocarBaralho(String novoBaralho) {
+    if (baralhos.containsKey(novoBaralho)) {
+      baralhoAtual = novoBaralho;
+      _loadCartas(novoBaralho);
+      updateSelectedCards(List.from(cartas));
+    }
+  }
+
   void updateSelectedCards(List<String> chosenCards) {
     selectedCards = List.from(chosenCards);
     if (selectedCards.isEmpty) {
-      selectedCards = List.from(
-        cartas,
-      ); // Fallback to all cards if none selected
+      selectedCards = List.from(cartas);
     }
     embaralharCartas();
   }
@@ -36,5 +58,7 @@ class SorteadorController {
     }
   }
 
-  String get cartaAtual => cartasEmbaralhadas[cartaAtualIndex];
+  String get cartaAtual => cartasEmbaralhadas.isNotEmpty
+      ? cartasEmbaralhadas[cartaAtualIndex]
+      : 'assets/$baralhoAtual/1.png'; // Fallback para evitar erros
 }

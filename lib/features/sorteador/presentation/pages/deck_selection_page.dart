@@ -1,11 +1,12 @@
-// lib/features/sorteador/presentation/pages/deck_selection_page.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../controller/sorteador_provider.dart';
-import '../widgets/carta_widget.dart';
+import 'package:estudos/features/sorteador/controller/sorteador_provider.dart';
+import 'package:estudos/features/sorteador/presentation/widgets/carta_widget.dart';
 
 class DeckSelectionPage extends StatefulWidget {
-  const DeckSelectionPage({super.key});
+  final String baralhoSelecionado;
+
+  const DeckSelectionPage({super.key, required this.baralhoSelecionado});
 
   @override
   State<DeckSelectionPage> createState() => _DeckSelectionPageState();
@@ -20,11 +21,11 @@ class _DeckSelectionPageState extends State<DeckSelectionPage> {
     super.initState();
     final controller =
         Provider.of<SorteadorProvider>(context, listen: false).controller;
+    controller.trocarBaralho(widget.baralhoSelecionado);
     allCards = controller.getAllCards();
-    selectedCards =
-        allCards
-            .map((card) => controller.selectedCards.contains(card))
-            .toList();
+    selectedCards = allCards
+        .map((card) => controller.selectedCards.contains(card))
+        .toList();
   }
 
   void toggleCardSelection(int index) {
@@ -50,55 +51,120 @@ class _DeckSelectionPageState extends State<DeckSelectionPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF424242),
-      appBar: AppBar(
-        backgroundColor: Colors.blue,
-        title: const Text('Seleção de Baralho'),
-        actions: [
-          PopupMenuButton<String>(
-            icon: const Icon(Icons.more_vert),
-            onSelected: (value) {
-              if (value == 'save') {
-                saveSelectedCards(context);
-              }
-            },
-            itemBuilder:
-                (context) => [
-                  const PopupMenuItem(
-                    value: 'save',
-                    child: Text('Salvar Seleção'),
+      backgroundColor: const Color(0xFFc5d1d9),
+      body: Column(
+        // Removido o Stack desnecessário que envolvia a Column
+        children: [
+          _buildCustomHeader(context),
+          Expanded(
+            child: GridView.builder(
+              padding: const EdgeInsets.all(16),
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 3,
+                crossAxisSpacing: 10,
+                mainAxisSpacing: 10,
+                childAspectRatio: 0.7,
+              ),
+              itemCount: allCards.length,
+              itemBuilder: (context, index) {
+                return GestureDetector(
+                  onTap: () => toggleCardSelection(index),
+                  // **CORREÇÃO 1: Padding para ajustar a largura da carta**
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        // Opcional: A sombra pode ficar aqui ou no CartaWidget
+                        // Para um efeito mais limpo, muitas vezes é melhor
+                        // ter a sombra e o arredondamento no mesmo widget.
+                        borderRadius: BorderRadius.circular(12),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.2),
+                            blurRadius: 8,
+                            offset: const Offset(0, 2),
+                          ),
+                        ],
+                      ),
+                      child: Stack(
+                        fit: StackFit
+                            .expand, // Garante que o Stack preencha o Container
+                        children: [
+                          CartaWidget(imagePath: allCards[index]),
+                          if (!selectedCards[index])
+                            Container(
+                              decoration: BoxDecoration(
+                                color: const Color(0xFFc5d1d9).withOpacity(0.8),
+                                // **CORREÇÃO 2: Borda arredondada na camada escura**
+                                // Este valor deve ser o mesmo do seu CartaWidget.
+                              ),
+                            ),
+                        ],
+                      ),
+                    ),
                   ),
-                ],
+                );
+              },
+            ),
           ),
         ],
       ),
-      body: GridView.builder(
-        padding: const EdgeInsets.all(16),
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 3,
-          crossAxisSpacing: 10,
-          mainAxisSpacing: 10,
-          childAspectRatio: 0.7,
+    );
+  }
+
+  Widget _buildCustomHeader(BuildContext context) {
+    return ClipPath(
+      clipper: WaveClipper(),
+      child: Container(
+        height: 150,
+        color: const Color(0xFFa2b4c0),
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(20, 40, 20, 0),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                'Seleção de cartas ${widget.baralhoSelecionado}',
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              IconButton(
+                icon: const Icon(Icons.save,
+                    color: Color.fromARGB(255, 23, 49, 88), size: 30),
+                tooltip: 'Salvar Seleção',
+                onPressed: () => saveSelectedCards(context),
+              ),
+            ],
+          ),
         ),
-        itemCount: allCards.length,
-        itemBuilder: (context, index) {
-          return GestureDetector(
-            onTap: () => toggleCardSelection(index),
-            child: Stack(
-              children: [
-                CartaWidget(imagePath: allCards[index]),
-                if (!selectedCards[index])
-                  Container(
-                    color: Colors.black54,
-                    child: const Center(
-                      child: Icon(Icons.close, color: Colors.red, size: 40),
-                    ),
-                  ),
-              ],
-            ),
-          );
-        },
       ),
     );
   }
+}
+
+class WaveClipper extends CustomClipper<Path> {
+  @override
+  Path getClip(Size size) {
+    var path = Path();
+    path.lineTo(0, size.height - 50);
+    var firstControlPoint = Offset(size.width / 4, size.height);
+    var firstEndPoint = Offset(size.width / 2.2, size.height - 30.0);
+    path.quadraticBezierTo(firstControlPoint.dx, firstControlPoint.dy,
+        firstEndPoint.dx, firstEndPoint.dy);
+    var secondControlPoint =
+        Offset(size.width - (size.width / 3.25), size.height - 65);
+    var secondEndPoint = Offset(size.width, size.height - 40);
+    path.quadraticBezierTo(secondControlPoint.dx, secondControlPoint.dy,
+        secondEndPoint.dx, secondEndPoint.dy);
+    path.lineTo(size.width, 0);
+    path.close();
+    return path;
+  }
+
+  @override
+  bool shouldReclip(CustomClipper<Path> oldClipper) => false;
 }

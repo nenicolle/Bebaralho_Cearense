@@ -1,18 +1,17 @@
 name: estudos
 description: "A new Flutter project."
-
-publish_to: "none" # Remove this line if you wish to publish to pub.dev
-
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.2
+  sdk: ">=3.4.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
   provider: ^6.0.5
+  package_info_plus: ^8.0.0
 
 dev_dependencies:
   flutter_test:
@@ -22,9 +21,14 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
   assets:
-    - assets/
+    - assets/profileImages/
+    - assets/bebaralho-cearense/
+    - assets/hipoteticamente/
+    - assets/capa-bebaralho-cearense.png
+    - assets/capa-hipoteticamente.png
+    - assets/app_icon.png
+    - assets/icone_imagem.png
 
 flutter_launcher_icons:
   android: true

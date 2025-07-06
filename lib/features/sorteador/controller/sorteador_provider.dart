@@ -1,14 +1,25 @@
-// lib/features/sorteador/controller/sorteador_provider.dart
-import 'package:flutter/material.dart';
-import 'sorteador_controller.dart';
+import 'package:flutter/foundation.dart';
+import 'package:estudos/features/sorteador/controller/sorteador_controller.dart';
 
 class SorteadorProvider extends ChangeNotifier {
-  final SorteadorController _controller = SorteadorController();
+  final SorteadorController controller;
 
-  SorteadorController get controller => _controller;
+  SorteadorProvider() : controller = SorteadorController();
 
   void updateSelectedCards(List<String> chosenCards) {
-    _controller.updateSelectedCards(chosenCards);
+    controller.updateSelectedCards(chosenCards);
+    notifyListeners();
+  }
+
+  void trocarBaralho(String novoBaralho) {
+    controller.trocarBaralho(novoBaralho);
+    notifyListeners();
+  }
+
+  String get cartaAtual => controller.cartaAtual;
+
+  void proximaCarta() {
+    controller.proximaCarta();
     notifyListeners();
   }
 }
