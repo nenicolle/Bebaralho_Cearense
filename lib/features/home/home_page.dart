@@ -38,15 +38,31 @@ class HomePage extends StatelessWidget {
               height: 90,
               width: 90,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  // ação do perfil
+                },
                 style: ElevatedButton.styleFrom(
                   shape: const CircleBorder(),
                   backgroundColor: const Color(0xFFc5d1d9),
                   elevation: 8.0,
                   side: const BorderSide(color: Colors.white, width: 2),
+                  padding: EdgeInsets.zero,
                 ),
-                child: const Text('perfil',
-                    style: TextStyle(color: Color(0xFF333333))),
+                child: ClipOval(
+                  child: Container(
+                    color: Colors.white, // fundo branco opcional para suavizar
+                    child: FittedBox(
+                      fit: BoxFit.contain, // faz a imagem caber sem cortar
+                      child: Image.asset(
+                        'assets/profileImages/1.png',
+                        errorBuilder: (context, error, stackTrace) {
+                          return const Icon(Icons.person,
+                              size: 40, color: Colors.grey);
+                        },
+                      ),
+                    ),
+                  ),
+                ),
               ),
             ),
           ),
@@ -69,21 +85,30 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          _buildDeckCard(
-            context,
-            baralho: 'bebaralho-cearense',
-            imagem: 'assets/capa-bebaralho-cearense.png',
-          ),
-          const SizedBox(width: 16),
-          _buildDeckCard(
-            context,
-            baralho: 'hipoteticamente',
-            imagem: 'assets/capa-hipoteticamente.png',
-          ),
-        ],
+      child: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(
+          children: [
+            _buildDeckCard(
+              context,
+              baralho: 'bebaralho-cearense',
+              imagem: 'assets/capa-bebaralho-cearense.png',
+            ),
+            const SizedBox(width: 16),
+            _buildDeckCard(
+              context,
+              baralho: 'hipoteticamente',
+              imagem: 'assets/capa-hipoteticamente.png',
+            ),
+            const SizedBox(width: 16),
+            _buildDeckCard(
+              context,
+              baralho: 'bebaralho-br',
+              imagem: 'assets/capa-bebaralho-br.png',
+            ),
+            // Adicione mais baralhos aqui se quiser
+          ],
+        ),
       ),
     );
   }
@@ -99,7 +124,7 @@ class HomePage extends StatelessWidget {
         );
       },
       child: Container(
-        width: 120,
+        width: 90,
         height: 180,
         decoration: BoxDecoration(
           color: const Color(0xFFa2b4c0),

@@ -2,6 +2,7 @@ class SorteadorController {
   final Map<String, int> baralhos = {
     'bebaralho-cearense': 97,
     'hipoteticamente': 80,
+    'bebaralho-br': 77,
   };
 
   late List<String> cartas;
@@ -20,6 +21,8 @@ class SorteadorController {
     final int numCartas = baralhos[baralho] ?? 50;
     if (baralho == 'bebaralho-cearense') {
       cartas = List.generate(numCartas, (i) => 'assets/$baralho/${i + 1}.jpg');
+    } else if (baralho == 'bebaralho-br') {
+      cartas = List.generate(numCartas, (i) => 'assets/$baralho/${i + 1}.png');
     } else {
       cartas = List.generate(numCartas, (i) => 'assets/$baralho/${i + 1}.png');
     }
@@ -55,6 +58,12 @@ class SorteadorController {
     cartaAtualIndex++;
     if (cartaAtualIndex >= cartasEmbaralhadas.length) {
       embaralharCartas();
+    }
+  }
+
+  void voltarCarta() {
+    if (cartaAtualIndex > 0) {
+      cartaAtualIndex--;
     }
   }
 

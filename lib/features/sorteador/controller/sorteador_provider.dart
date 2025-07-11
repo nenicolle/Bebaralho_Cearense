@@ -22,4 +22,9 @@ class SorteadorProvider extends ChangeNotifier {
     controller.proximaCarta();
     notifyListeners();
   }
+
+  void voltarCarta() {
+    controller.voltarCarta();
+    notifyListeners();
+  }
 }

@@ -14,11 +14,7 @@ class SorteadorPage extends StatefulWidget {
 class _SorteadorPageState extends State<SorteadorPage> {
   @override
   Widget build(BuildContext context) {
-    final controller = Provider.of<SorteadorProvider>(context).controller;
-
-    void proximaCarta() {
-      setState(() => controller.proximaCarta());
-    }
+    final provider = Provider.of<SorteadorProvider>(context);
 
     return Scaffold(
       backgroundColor: const Color(0xFFb0c0ca),
@@ -30,7 +26,15 @@ class _SorteadorPageState extends State<SorteadorPage> {
               Expanded(
                 child: GestureDetector(
                   onHorizontalDragEnd: (details) {
-                    if (details.primaryVelocity! < 0) proximaCarta();
+                    final velocity = details.primaryVelocity ?? 0;
+
+                    if (velocity < -100) {
+                      // Esquerda → próxima carta
+                      setState(() => provider.proximaCarta());
+                    } else if (velocity > 100) {
+                      // Direita → voltar carta
+                      setState(() => provider.voltarCarta());
+                    }
                   },
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 32.0),
@@ -53,14 +57,13 @@ class _SorteadorPageState extends State<SorteadorPage> {
                           ),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(16.0),
-                            child:
-                                CartaWidget(imagePath: controller.cartaAtual),
+                            child: CartaWidget(imagePath: provider.cartaAtual),
                           ),
                         ),
                         const Spacer(flex: 1),
                         const SizedBox(height: 20),
                         const Text(
-                          'Deslize para a esquerda para avançar',
+                          'Deslize para os lados para navegar',
                           style: TextStyle(
                             color: Color(0xFF333333),
                             fontSize: 16,
