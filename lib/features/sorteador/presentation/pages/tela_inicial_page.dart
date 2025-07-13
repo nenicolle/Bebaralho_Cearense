@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:estudos/features/home/home_page.dart';
+import 'package:bebaralho/features/home/home_page.dart';
 import 'package:video_player/video_player.dart';
 
 class TelaInicialPage extends StatefulWidget {

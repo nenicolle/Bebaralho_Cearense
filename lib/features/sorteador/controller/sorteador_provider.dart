@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:estudos/features/sorteador/controller/sorteador_controller.dart';
+import 'package:bebaralho/features/sorteador/controller/sorteador_controller.dart';
 
 class SorteadorProvider extends ChangeNotifier {
   final SorteadorController controller;

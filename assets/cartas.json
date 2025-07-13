@@ -1,0 +1,222 @@
+{
+  "baralho-cearense": [
+    {
+      "id": 1,
+      "nome": "Getúlio Abelha",
+      "efeito": "Abra uma caixa de perguntas no seu instagram e deixe por 1 hora, a pessoa da sua esquerda escolhe a pergunta",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/1.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Ed. São Pedro",
+      "efeito": "Você foi interditado pela prefeitura, passe uma rodada sem jogar",
+      "tipo": "out",
+      "imagem": "/assets/bebaralho-cearense/2.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": true,
+        "interrompeOrdem": true,
+        "rodadas": 1
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Glitter",
+      "efeito": "Diga quem você acha que merece passar uma rodada fora do jogo e porquê",
+      "tipo": "out",
+      "imagem": "/assets/bebaralho-cearense/3.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": true,
+        "interrompeOrdem": true,
+        "rodadas": 1
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Cid na cacimba",
+      "efeito": "tome um banho ou beba",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/4.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": true,
+        "interrompeOrdem": true,
+        "rodadas": 1
+      }
+    },
+    {
+      "id": 5,
+      "nome": "TOPIC 755",
+      "efeito": "Escolha algum objeto pra vender pros amigos, se não conseguir vender beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/5.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Choque de monstro",
+      "efeito": "Puxe briga com alguém ou beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/6.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 7,
+      "nome": "Queima quengaral",
+      "efeito": "Escolha 2 pessoas para soltar uma vaia, a pior vaia bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/7.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 8,
+      "nome": "Rockeiros vencem",
+      "efeito": "Os pirangueiros bebem.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/8.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 9,
+      "nome": "Pirangueiros vencem",
+      "efeito": "Os rockeiros bebem.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/9.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 10,
+      "nome": "Gato preto",
+      "efeito": "Quem já foi no gato preto bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/10.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 11,
+      "nome": "Onion Rings",
+      "efeito": "Quem já foi no porpino bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/11.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 12,
+      "nome": "Se lasca Fortaleza",
+      "efeito": "Quem torce pelo Fortaleza esporte clube bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/12.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 13,
+      "nome": "Rolezinho",
+      "efeito": "É proibido sair sem beijo. beije a pessoa que estiver na sua frente. quem não quiser beijar bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/13.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 14,
+      "nome": "Lions",
+      "efeito": "Quem já foi no bar da lions bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/14.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 15,
+      "nome": "Quebra côco",
+      "efeito": "Quem tem dor de cabeça na ressaca do dia seguinte bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/15.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 16,
+      "nome": "João inácio",
+      "efeito": "Se você acreditou no tsunami do joão inácio show bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/16.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 17,
+      "nome": "Aquele programa da tv união que ninguém lembra",
+      "efeito": "beba e depois a pessoa da tua esquerda vai balançar sua cabeça igual liquidificador.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/17.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 18,
+      "nome": "Hora da venenosa",
+      "efeito": "Abra uma votação: quem é a mais venenosa. quem ganhar bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/18.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    }
+  ],
+  "hipoteticamente": [],
+  "bebaralho-br": []
+}

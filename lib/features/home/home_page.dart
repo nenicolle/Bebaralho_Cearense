@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:estudos/features/sorteador/presentation/pages/deck_start_page.dart';
-import 'package:estudos/features/sorteador/presentation/pages/tela_inicial_page.dart';
+import 'package:bebaralho/features/sorteador/presentation/pages/deck_start_page.dart';
+import 'package:bebaralho/features/sorteador/presentation/pages/tela_inicial_page.dart';
+import 'package:bebaralho/features/sorteador/presentation/pages/player_selection.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -39,7 +40,10 @@ class HomePage extends StatelessWidget {
               width: 90,
               child: ElevatedButton(
                 onPressed: () {
-                  // ação do perfil
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                        builder: (_) => const PlayerSelectionPage()),
+                  );
                 },
                 style: ElevatedButton.styleFrom(
                   shape: const CircleBorder(),

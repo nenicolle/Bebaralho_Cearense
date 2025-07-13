@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:estudos/features/sorteador/controller/sorteador_provider.dart';
-import 'package:estudos/features/sorteador/presentation/widgets/carta_widget.dart';
+import 'package:bebaralho/features/sorteador/controller/sorteador_provider.dart';
+import 'package:bebaralho/features/sorteador/presentation/widgets/carta_widget.dart';
 
 class DeckSelectionPage extends StatefulWidget {
   final String baralhoSelecionado;

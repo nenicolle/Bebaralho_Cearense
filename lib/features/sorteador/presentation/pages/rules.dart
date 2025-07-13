@@ -1,4 +1,4 @@
-import 'package:estudos/features/sorteador/presentation/pages/sorteador_page.dart';
+import 'package:bebaralho/features/sorteador/presentation/pages/sorteador_page.dart';
 import 'package:flutter/material.dart';
 
 class RulesPage extends StatelessWidget {
