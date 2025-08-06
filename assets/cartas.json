@@ -215,8 +215,2626 @@
         "interrompeOrdem": false,
         "rodadas": null
       }
+    },
+    {
+      "id": 19,
+      "nome": "At Home",
+      "efeito": "Se tiver ypioca guaraná, faça vira vira de 7 segundos. se não tiver beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/19.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 20,
+      "nome": "Operação tapa buraco",
+      "efeito": "mande mensagem para um contatinho ou beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/20.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 21,
+      "nome": "Fortaleza ou London?",
+      "efeito": "choveu e tá frio demais, pegue o maximo de roupas que conseguir e vista. se não. beba pra esquentar.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/21.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 22,
+      "nome": "Videira",
+      "efeito": "Só quem já foi na videira sabe, e bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/22.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 23,
+      "nome": "Ilhados",
+      "efeito": "Só quem já ficou ilhado num dia de chuva bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/23.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 24,
+      "nome": "Cachaceiros",
+      "efeito": "Tome uma dose de cachaça, se não tiver Ypioca beba outra coisa.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/24.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 25,
+      "nome": "Pitombeira bar",
+      "efeito": "Quem já foi no pitombeira bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/25.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 26,
+      "nome": "R.U",
+      "efeito": "Se você já escutou alguém falar mal da comida do RU beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/26.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 27,
+      "nome": "Ant. Bezerra Unifor",
+      "efeito": "Quem nunca foi no terminal do antonio bezerra bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/27.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 28,
+      "nome": "Vai descer motorista",
+      "efeito": "Quem já perdeu a parada de onibus bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/28.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 29,
+      "nome": "Fofoca",
+      "efeito": "Rasga uma fofoca da boa, se não tiver tire essa rodada pra lavar a louça na cozinha. Se não tiver louça você bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/29.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 30,
+      "nome": "Particular",
+      "efeito": "Se você estudou em colégio particular você bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/30.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 31,
+      "nome": "Parque do codó",
+      "efeito": "Quem já foi fazer fotos no parque do cocó bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/31.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 32,
+      "nome": "Pública",
+      "efeito": "Se você estudou em escola pública beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/32.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 33,
+      "nome": "Boca de Lobo",
+      "efeito": "Prove que sabe dar nó em punho de rede ou beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/33.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 34,
+      "nome": "Isso é uma autarquia",
+      "efeito": "Passe uma rodada bajulando alguém ou beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/34.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 35,
+      "nome": "Pegadinha do malandro",
+      "efeito": "Quem não é cearense bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/35.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 36,
+      "nome": "CETV",
+      "efeito": "Escolha a pessoa que você acha que sempre tá por dentro das notícias(fofoca) pra beber.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/36.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 37,
+      "nome": "PF do sarto",
+      "efeito": "Vote em quem você acha que dá prejuizo no rodízio, o mais votado bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/37.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 38,
+      "nome": "Coelce Natália",
+      "efeito": "Vote em quem você acha que dá prejuizo no rodízio, o mais votado bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/38.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 39,
+      "nome": "Kerline",
+      "efeito": "Vote em quem você acha que dá prejuizo no rodízio, o mais votado bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/39.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 40,
+      "nome": "Vem mariana",
+      "efeito": "Vote em quem você acha que dá prejuizo no rodízio, o mais votado bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/40.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 41,
+      "nome": "Getúlio Abelha",
+      "efeito": "Abra uma caixa de perguntas no seu instagram e deixe por 1 hora, a pessoa da sua esquerda escolhe a pergunta",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/1.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 42,
+      "nome": "Ed. São Pedro",
+      "efeito": "Você foi interditado pela prefeitura, passe uma rodada sem jogar",
+      "tipo": "out",
+      "imagem": "/assets/bebaralho-cearense/2.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": true,
+        "interrompeOrdem": true,
+        "rodadas": 1
+      }
+    },
+    {
+      "id": 43,
+      "nome": "Glitter",
+      "efeito": "Diga quem você acha que merece passar uma rodada fora do jogo e porquê",
+      "tipo": "out",
+      "imagem": "/assets/bebaralho-cearense/3.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": true,
+        "interrompeOrdem": true,
+        "rodadas": 1
+      }
+    },
+    {
+      "id": 44,
+      "nome": "Cid na cacimba",
+      "efeito": "tome um banho ou beba",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/4.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": true,
+        "interrompeOrdem": true,
+        "rodadas": 1
+      }
+    },
+    {
+      "id": 45,
+      "nome": "TOPIC 755",
+      "efeito": "Escolha algum objeto pra vender pros amigos, se não conseguir vender beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/5.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 46,
+      "nome": "Choque de monstro",
+      "efeito": "Puxe briga com alguém ou beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/6.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 47,
+      "nome": "Queima quengaral",
+      "efeito": "Escolha 2 pessoas para soltar uma vaia, a pior vaia bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/7.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 48,
+      "nome": "Rockeiros vencem",
+      "efeito": "Os pirangueiros bebem.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/8.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 49,
+      "nome": "Pirangueiros vencem",
+      "efeito": "Os rockeiros bebem.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/9.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 50,
+      "nome": "Gato preto",
+      "efeito": "Quem já foi no gato preto bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/10.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 51,
+      "nome": "Onion Rings",
+      "efeito": "Quem já foi no porpino bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/11.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 52,
+      "nome": "Se lasca Fortaleza",
+      "efeito": "Quem torce pelo Fortaleza esporte clube bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/12.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 53,
+      "nome": "Rolezinho",
+      "efeito": "É proibido sair sem beijo. beije a pessoa que estiver na sua frente. quem não quiser beijar bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/13.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 54,
+      "nome": "Lions",
+      "efeito": "Quem já foi no bar da lions bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/14.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 55,
+      "nome": "Quebra côco",
+      "efeito": "Quem tem dor de cabeça na ressaca do dia seguinte bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/15.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 56,
+      "nome": "João inácio",
+      "efeito": "Se você acreditou no tsunami do joão inácio show bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/16.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 57,
+      "nome": "Aquele programa da tv união que ninguém lembra",
+      "efeito": "beba e depois a pessoa da tua esquerda vai balançar sua cabeça igual liquidificador.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/17.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 58,
+      "nome": "Hora da venenosa",
+      "efeito": "Abra uma votação: quem é a mais venenosa. quem ganhar bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/18.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 59,
+      "nome": "At Home",
+      "efeito": "Se tiver ypioca guaraná, faça vira vira de 7 segundos. se não tiver beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/19.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 60,
+      "nome": "Operação tapa buraco",
+      "efeito": "mande mensagem para um contatinho ou beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/20.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 61,
+      "nome": "Fortaleza ou London?",
+      "efeito": "choveu e tá frio demais, pegue o maximo de roupas que conseguir e vista. se não. beba pra esquentar.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/21.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 62,
+      "nome": "Videira",
+      "efeito": "Só quem já foi na videira sabe, e bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/22.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 63,
+      "nome": "Ilhados",
+      "efeito": "Só quem já ficou ilhado num dia de chuva bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/23.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 64,
+      "nome": "Cachaceiros",
+      "efeito": "Tome uma dose de cachaça, se não tiver Ypioca beba outra coisa.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/24.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 65,
+      "nome": "Pitombeira bar",
+      "efeito": "Quem já foi no pitombeira bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/25.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 66,
+      "nome": "R.U",
+      "efeito": "Se você já escutou alguém falar mal da comida do RU beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/26.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 67,
+      "nome": "Ant. Bezerra Unifor",
+      "efeito": "Quem nunca foi no terminal do antonio bezerra bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/27.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 68,
+      "nome": "Vai descer motorista",
+      "efeito": "Quem já perdeu a parada de onibus bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/28.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 69,
+      "nome": "Fofoca",
+      "efeito": "Rasga uma fofoca da boa, se não tiver tire essa rodada pra lavar a louça na cozinha. Se não tiver louça você bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/29.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 70,
+      "nome": "Particular",
+      "efeito": "Se você estudou em colégio particular você bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/30.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 71,
+      "nome": "Parque do codó",
+      "efeito": "Quem já foi fazer fotos no parque do cocó bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/31.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 72,
+      "nome": "Pública",
+      "efeito": "Se você estudou em escola pública beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/32.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 73,
+      "nome": "Boca de Lobo",
+      "efeito": "Prove que sabe dar nó em punho de rede ou beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/33.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 74,
+      "nome": "Isso é uma autarquia",
+      "efeito": "Passe uma rodada bajulando alguém ou beba.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/34.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 75,
+      "nome": "Pegadinha do malandro",
+      "efeito": "Quem não é cearense bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/35.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 76,
+      "nome": "CETV",
+      "efeito": "Escolha a pessoa que você acha que sempre tá por dentro das notícias(fofoca) pra beber.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/36.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 77,
+      "nome": "PF do sarto",
+      "efeito": "Vote em quem você acha que dá prejuizo no rodízio, o mais votado bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/37.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 78,
+      "nome": "Coelce Natália",
+      "efeito": "Vote em quem você acha que dá prejuizo no rodízio, o mais votado bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/38.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 79,
+      "nome": "Kerline",
+      "efeito": "Vote em quem você acha que dá prejuizo no rodízio, o mais votado bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/39.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 80,
+      "nome": "Vem mariana",
+      "efeito": "Vote em quem você acha que dá prejuizo no rodízio, o mais votado bebe.",
+      "tipo": "action",
+      "imagem": "/assets/bebaralho-cearense/40.jpg",
+      "flags": {
+        "requerEscolhaDeJogador": false,
+        "interrompeOrdem": false,
+        "rodadas": null
+      }
     }
   ],
-  "hipoteticamente": [],
-  "bebaralho-br": []
+  "hipoteticamente": [
+    {
+      "id": 1,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/1.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 2,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/2.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 3,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/3.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 4,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/4.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 5,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/5.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 6,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/6.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 7,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/7.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 8,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/8.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 9,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/9.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 10,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/10.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 11,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/11.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 12,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/12.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 13,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/13.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 14,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/14.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 15,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/15.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 16,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/16.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 17,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/17.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 18,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/18.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 19,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/19.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 20,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/20.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 21,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/21.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 22,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/22.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 23,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/23.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 24,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/24.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 25,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/25.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 26,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/26.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 27,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/27.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 28,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/28.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 29,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/29.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 30,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/30.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 31,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/31.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 32,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/32.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 33,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/33.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 34,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/34.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 35,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/35.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 36,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/36.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 37,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/37.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 38,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/38.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 39,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/39.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 40,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/40.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 41,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/41.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 42,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/42.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 43,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/43.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 44,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/44.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 45,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/45.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 46,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/46.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 47,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/47.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 48,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/48.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 49,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/49.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 50,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/50.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 51,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/51.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 52,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/52.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 53,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/53.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 54,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/54.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 55,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/55.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 56,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/56.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 57,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/57.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 58,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/58.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 59,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/59.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 60,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/60.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 61,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/61.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 62,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/62.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 63,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/63.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 64,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/64.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 65,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/65.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 66,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/66.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 67,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/67.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 68,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/68.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 69,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/69.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 70,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/70.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 71,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/71.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 72,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/72.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 73,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/73.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 74,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/74.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 75,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/75.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 76,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/76.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 77,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/77.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 78,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/78.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 79,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/79.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 80,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/hipoteticamente/80.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    }
+  ],
+  "bebaralho-br": [
+    {
+      "id": 1,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/1.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 2,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/2.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 3,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/3.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 4,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/4.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 5,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/5.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 6,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/6.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 7,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/7.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 8,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/8.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 9,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/9.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 10,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/10.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 11,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/11.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 12,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/12.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 13,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/13.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 14,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/14.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 15,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/15.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 16,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/16.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 17,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/17.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 18,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/18.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 19,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/19.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 20,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/20.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 21,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/21.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 22,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/22.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 23,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/23.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 24,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/24.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 25,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/25.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 26,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/26.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 27,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/27.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 28,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/28.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 29,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/29.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 30,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/30.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 31,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/31.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 32,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/32.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 33,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/33.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 34,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/34.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 35,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/35.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 36,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/36.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 37,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/37.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 38,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/38.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 39,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/39.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 40,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/40.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 41,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/41.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 42,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/42.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 43,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/43.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 44,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/44.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 45,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/45.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 46,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/46.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 47,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/47.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 48,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/48.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 49,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/49.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 50,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/50.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 51,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/51.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 52,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/52.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 53,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/53.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 54,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/54.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 55,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/55.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 56,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/56.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 57,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/57.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 58,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/58.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 59,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/59.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 60,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/60.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 61,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/61.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 62,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/62.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 63,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/63.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 64,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/64.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 65,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/65.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 66,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/66.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 67,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/67.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 68,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/68.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 69,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/69.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 70,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/70.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 71,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/71.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 72,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/72.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 73,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/73.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 74,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/74.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 75,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/75.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    },
+    {
+      "id": 76,
+      "nome": "",
+      "efeito": "",
+      "tipo": "",
+      "imagem": "/assets/bebaralho-br/76.png",
+      "flags": {
+        "requerEscolhaDeJogador": null,
+        "interrompeOrdem": null,
+        "rodadas": null
+      }
+    }
+  ]
 }

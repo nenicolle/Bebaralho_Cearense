@@ -1,3 +1,4 @@
+//PAGINA DE SELEÇÃO DE CARTAS DO BARALHO
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:bebaralho/features/sorteador/controller/sorteador_provider.dart';
@@ -124,12 +125,15 @@ class _DeckSelectionPageState extends State<DeckSelectionPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(
-                'Seleção de cartas ${widget.baralhoSelecionado}',
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
+              Padding(
+                padding: const EdgeInsets.only(top: 20, left: 80),
+                child: Text(
+                  'Seleção de cartas',
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
               IconButton(

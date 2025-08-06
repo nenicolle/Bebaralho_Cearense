@@ -1,3 +1,4 @@
+//PAGINA DE SELEÇÃO DE CARTAS DO BARALHO
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:bebaralho/features/home/home_page.dart';
