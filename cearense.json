@@ -1,0 +1,274 @@
+[
+  {
+    "ID": 1,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/1.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Getúlio Abelha"
+  },
+  {
+    "ID": 2,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/2.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Patriotas"
+  },
+  {
+    "ID": 3,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "imagemURL": "assets/bebaralho-cearense/3.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Num é Nicolle?"
+  },
+  {
+    "ID": 4,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/4.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Eu sou rolezeira"
+  },
+  {
+    "ID": 5,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/5.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Quero caféééé"
+  },
+  {
+    "ID": 6,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/6.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Correndo atrás"
+  },
+  {
+    "ID": 7,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/7.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Buonassera Natasha"
+  },
+  {
+    "ID": 8,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/8.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Meme mais BR do mundo"
+  },
+  {
+    "ID": 9,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/9.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Melody e Débora"
+  },
+  {
+    "ID": 10,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/10.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Azelia banks e mini pastora"
+  },
+  {
+    "ID": 11,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/11.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Pablo são amores"
+  },
+  {
+    "ID": 12,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/12.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Absolute Cinema"
+  },
+  {
+    "ID": 13,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/13.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Numanice?? parece a Ludmilla"
+  },
+  {
+    "ID": 14,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/14.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Suasana Vieira"
+  },
+  {
+    "ID": 15,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/15.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Inês Brasil"
+  },
+  {
+    "ID": 16,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/16.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Fernanda Ganzarolli"
+  },
+  {
+    "ID": 17,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": true,
+      "rodadas_fora": 1
+    },
+
+    "imagemURL": "assets/bebaralho-cearense/17.jpg",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "normal",
+    "titulo": "Fernanda Ganzarolli"
+  }
+]

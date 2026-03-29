@@ -1,0 +1,292 @@
+[
+  {
+    "ID": 1,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Qual é o maior planeta do sistema solar? a)Terra b)Marte c)Júpiter D)Saturno",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Jogo do milhão"
+  },
+  {
+    "ID": 2,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "O ultimo a bater continência bebe",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Patriotas"
+  },
+  {
+    "ID": 3,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Você bebe e se tiver uma Nicolle no grupo ela bebe também",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Num é Nicolle?"
+  },
+  {
+    "ID": 4,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Mande um 'e aê vamo fechar' da DM do seu crush - se não conseguir beba",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Eu sou rolezeira"
+  },
+  {
+    "ID": 5,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Não tem café, tá em falta... beba água",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Quero caféééé"
+  },
+  {
+    "ID": 6,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Faça 10 polichinelos - Se não conseguir beba",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Correndo atrás"
+  },
+  {
+    "ID": 7,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Diga  5 comidas tipicamente italianas - se não conseguir beba",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Buonassera Natasha"
+  },
+  {
+    "ID": 8,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Pais de pet bebem",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Meme mais BR do mundo"
+  },
+  {
+    "ID": 9,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Dê o seu melhor falsete ou beba",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Melody e Débora"
+  },
+  {
+    "ID": 10,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Faça uma pregação da mesma forma que a mini pastora faria ou beba",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Azelia banks e mini pastora"
+  },
+  {
+    "ID": 11,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Coloque para tocar a música 'são amores' na versão da pablo e faça sua melhor dancinha do tiktok ou beba",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Pablo são amores"
+  },
+  {
+    "ID": 12,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "todos falam o nome de qualquer filme e coloque 'pinto' nele. se alguém não rir beba",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Absolute Cinema"
+  },
+  {
+    "ID": 13,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Quem já foi no numanice bebe",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Numanice?? parece a Ludmilla"
+  },
+  {
+    "ID": 14,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Não tenho paciência pra quem tá começando.",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Suasana Vieira"
+  },
+  {
+    "ID": 15,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Não tenho paciência pra quem tá começando.",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Inês Brasil"
+  },
+  {
+    "ID": 16,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": false
+    },
+    "consequencia": "beba",
+    "descricao": "Vamo ajudar quem ta começando? Dê água pra pessoa mais bêbada da roda. SE NÃO TIVER NINGUÉM BEBA",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Fernanda Ganzarolli"
+  },
+  {
+    "ID": 17,
+    "actions": {
+      "muda_para_direita": false,
+      "muda_para_esquerda": false,
+      "sair_da_rodada": true,
+      "rodadas_fora": 1
+    },
+    "consequencia": "beba",
+    "descricao": "Vá descansar, escolha outra pessoa para puxar a próxima carta",
+    "imagemURL": "",
+    "pontos": {
+      "moedas": 0.0,
+      "quantidade": 1
+    },
+    "tipo": "pergunta",
+    "titulo": "Fernanda Ganzarolli"
+  }
+]

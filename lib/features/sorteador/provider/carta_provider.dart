@@ -1,7 +1,7 @@
+import 'package:bebaralho/models/carta_model.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import '../models/carta_model.dart';
 
 class CartaProvider extends ChangeNotifier {
   Map<String, List<CartaModel>> _todosBaralhos = {};
