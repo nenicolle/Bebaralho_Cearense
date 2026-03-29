@@ -44,7 +44,7 @@ class _PlayerSelectionPageState extends State<PlayerSelectionPage> {
     setState(() {
       jogadores.add(
         Jogador(
-          nome: 'Jogador ${jogadores.length + 1}',
+          nome: jogadores.isEmpty ? 'Eu' : 'Jogador ${jogadores.length + 1}',
           avatar: 'assets/profileImages/1.png',
         ),
       );

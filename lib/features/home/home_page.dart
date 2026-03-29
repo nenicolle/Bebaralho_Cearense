@@ -2,9 +2,41 @@ import 'package:flutter/material.dart';
 import 'package:bebaralho/features/sorteador/presentation/pages/deck_start_page.dart';
 import 'package:bebaralho/features/sorteador/presentation/pages/tela_inicial_page.dart';
 import 'package:bebaralho/features/sorteador/presentation/pages/player_selection.dart';
+import 'dart:convert';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:bebaralho/models/player_model.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  Jogador? player;
+
+  @override
+  void initState() {
+    super.initState();
+    carregarPlayer();
+  }
+
+  Future<void> carregarPlayer() async {
+    final prefs = await SharedPreferences.getInstance();
+    final data = prefs.getString('jogadores');
+
+    if (data != null) {
+      final list = jsonDecode(data) as List;
+      final jogadores = list.map((e) => Jogador.fromJson(e)).toList();
+
+      if (jogadores.isNotEmpty) {
+        setState(() {
+          player = jogadores[0]; // 👈 jogador 1 = eu
+        });
+      }
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -24,52 +56,65 @@ class HomePage extends StatelessWidget {
                     children: [
                       _buildDeckSection(context),
                       const SizedBox(height: 24),
-                      _buildActionButtons(),
                       const SizedBox(height: 24),
-                      _buildStoreButton(),
                     ],
                   ),
                 ),
               ),
             ],
           ),
+
           Positioned(
-            top: 135,
-            child: SizedBox(
-              height: 90,
-              width: 90,
-              child: ElevatedButton(
-                onPressed: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                        builder: (_) => const PlayerSelectionPage()),
-                  );
-                },
-                style: ElevatedButton.styleFrom(
-                  shape: const CircleBorder(),
-                  backgroundColor: const Color(0xFFc5d1d9),
-                  elevation: 8.0,
-                  side: const BorderSide(color: Colors.white, width: 2),
-                  padding: EdgeInsets.zero,
-                ),
-                child: ClipOval(
-                  child: Container(
-                    color: Colors.white, // fundo branco opcional para suavizar
-                    child: FittedBox(
-                      fit: BoxFit.contain, // faz a imagem caber sem cortar
-                      child: Image.asset(
-                        'assets/profileImages/1.png',
-                        errorBuilder: (context, error, stackTrace) {
-                          return const Icon(Icons.person,
-                              size: 40, color: Colors.grey);
-                        },
-                      ),
-                    ),
-                  ),
-                ),
+  top: 120,
+  child: Column(
+    children: [
+      if (player != null)
+        Text(
+          player!.nome,
+          style: const TextStyle(
+            fontSize: 14,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
+        ),
+      const SizedBox(height: 8),
+
+      SizedBox(
+        height: 90,
+        width: 90,
+        child: ElevatedButton(
+          onPressed: () async {
+            await Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (_) => const PlayerSelectionPage(),
+              ),
+            );
+
+            carregarPlayer();
+          },
+          style: ElevatedButton.styleFrom(
+            shape: const CircleBorder(),
+            backgroundColor: const Color(0xFFc5d1d9),
+            elevation: 8.0,
+            side: const BorderSide(color: Colors.white, width: 2),
+            padding: EdgeInsets.zero,
+          ),
+          child: ClipOval(
+            child: Container(
+              color: Colors.white,
+              child: FittedBox(
+                fit: BoxFit.contain,
+                child: player != null
+                    ? Image.asset(player!.avatar)
+                    : Image.asset('assets/profileImages/1.png'),
               ),
             ),
           ),
+        ),
+      ),
+    ],
+  ),
+),
         ],
       ),
     );
@@ -110,7 +155,6 @@ class HomePage extends StatelessWidget {
               baralho: 'bebaralho-br',
               imagem: 'assets/capa-bebaralho-br.png',
             ),
-            // Adicione mais baralhos aqui se quiser
           ],
         ),
       ),
@@ -123,7 +167,8 @@ class HomePage extends StatelessWidget {
       onTap: () {
         Navigator.of(context).push(
           MaterialPageRoute(
-            builder: (_) => DeckStartPage(baralhoSelecionado: baralho),
+            builder: (_) =>
+                DeckStartPage(baralhoSelecionado: baralho),
           ),
         );
       },
@@ -159,62 +204,6 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  Widget _buildActionButtons() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        _buildActionButton(icon: Icons.filter_1_sharp, label: 'Criar'),
-        _buildActionButton(icon: Icons.shuffle, label: 'Mix'),
-      ],
-    );
-  }
-
-  Widget _buildStoreButton() {
-    return _buildActionButton(
-        icon: Icons.storefront, label: 'Loja', isFullWidth: true);
-  }
-
-  Widget _buildActionButton(
-      {required IconData icon,
-      required String label,
-      bool isFullWidth = false}) {
-    final buttonContent = Container(
-      height: 120,
-      decoration: BoxDecoration(
-        color: const Color(0xFFd4dbe0),
-        borderRadius: BorderRadius.circular(20),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.1),
-            blurRadius: 10,
-            offset: const Offset(0, 4),
-          ),
-        ],
-      ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Icon(icon, size: 48, color: const Color(0xFF333333)),
-          const SizedBox(height: 8),
-          Text(label,
-              style: const TextStyle(fontSize: 16, color: Color(0xFF333333))),
-        ],
-      ),
-    );
-
-    if (isFullWidth) {
-      return SizedBox(
-        width: double.infinity,
-        child: buttonContent,
-      );
-    }
-
-    return SizedBox(
-      width: 160,
-      child: buttonContent,
-    );
-  }
-
   Widget _buildCustomHeader(BuildContext context) {
     return ClipPath(
       clipper: WaveClipper(),
@@ -233,16 +222,15 @@ class HomePage extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(builder: (_) => const TelaInicialPage()),
+                    MaterialPageRoute(
+                        builder: (_) => const TelaInicialPage()),
                   );
                 },
               ),
               IconButton(
                 icon: const Icon(Icons.add_circle_outline,
                     color: Colors.white, size: 30),
-                onPressed: () {
-                  // TODO: Lógica para o botão de adicionar
-                },
+                onPressed: () {},
               ),
             ],
           ),
@@ -261,10 +249,12 @@ class WaveClipper extends CustomClipper<Path> {
     var firstEndPoint = Offset(size.width / 2, size.height - 40);
     path.quadraticBezierTo(firstControlPoint.dx, firstControlPoint.dy,
         firstEndPoint.dx, firstEndPoint.dy);
-    var secondControlPoint = Offset(size.width * 3 / 4, size.height - 80);
-    var secondEndPoint = Offset(size.width, size.height - 120);
-    path.quadraticBezierTo(secondControlPoint.dx, secondControlPoint.dy,
-        secondEndPoint.dx, secondEndPoint.dy);
+    var secondControlPoint =
+        Offset(size.width * 3 / 4, size.height - 80);
+    var secondEndPoint =
+        Offset(size.width, size.height - 120);
+    path.quadraticBezierTo(secondControlPoint.dx,
+        secondControlPoint.dy, secondEndPoint.dx, secondEndPoint.dy);
     path.lineTo(size.width, 0);
     path.close();
     return path;
